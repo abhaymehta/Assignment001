@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food App</title>
+  </head>
+  <style>
+    html {
+      background-color: aliceblue;
+    }
+    .main {
+      overflow: hidden;
+      list-style-type: none;
+      /* background-color: rgb(223, 210, 179); */
+      /* background-color:rgb(194, 194, 227); */
+      background-color: #b3c8ff;
+    }
+    .menu {
+      /* list-style: none; */
+      list-style-type: none;
+      float: left;
+      color: goldenrod;
+      padding: 5px;
+      margin: 5px;
+      font-size: 20px;
+    }
+
+    .mitem {
+      text-decoration: none;
+      padding: 10px 10px;
+      text-align: center;
+      display: block;
+      background-color: #ef4c85;
+    }
+
+    li a:hover {
+      color: rgb(187, 125, 182);
+      cursor: pointer;
+      /* background-color: darksalmon; */
+    }
+
+    figcaption {
+      font-size: larger;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bold;
+      text-decoration: underline;;
+    }
+  </style>
+
+  <body>
+    <header>
+      <!--  -->
+      <ul class="main">
+        <li class="menu"><a href="#">Index</a></li>
+        <li class="menu"><a href="#">Food</a></li>
+        <li class="menu"><a href="#">About</a></li>
+      </ul>
+    </header>
+
+    <!-- style="width: 70%; float: right; background-color: coral; padding: 10px" -->
+
+    <main style="width: 70%; float: right; padding: 10px">
+      <section id="burger">
+        <figure style="text-align: center">
+          <img src="./burger.jpg" alt="pic" width="600" height="400" />
+          <figcaption>Burger</figcaption>
+        </figure>
+      </section>
+      <section id="pizza">
+        <figure style="text-align: center">
+          <img
+            src="./Margerita pizza.jpeg"
+            alt="pic"
+            width="600"
+            height="400"
+          />
+          <figcaption>Margerita pizza</figcaption>
+        </figure>
+      </section>
+      <section id="conti">
+        <figure style="text-align: center">
+          <img src="./continental.jpeg" alt="pic" width="600" height="400" />
+          <figcaption>continental Foods</figcaption>
+        </figure>
+      </section>
+      <section id="chinese">
+        <figure style="text-align: center">
+          <img src="./chinese.jpeg" alt="pic" width="600" height="400" />
+          <figcaption>chinese</figcaption>
+        </figure>
+      </section>
+      <section id="italy">
+        <figure style="text-align: center">
+          <img src="./italian foods.jpeg" alt="pic" width="600" height="400" />
+          <figcaption>italian foods</figcaption>
+        </figure>
+      </section>
+      <section id="shahi">
+        <figure style="text-align: center">
+          <img src="./shahi.jpg" alt="pic" width="600" height="400" />
+          <figcaption>Shahi Paneer</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <aside
+      style="
+        width: 25%;
+        height: 100%;
+        float: left;
+        background-color: aliceblue;
+        padding: 10px;
+      "
+    >
+      <h1>Today's Special Menu</h1>
+        <li><a href="#burger">Burger</a></li>
+        <li><a href="#pizza">Margherita Pizza</a></li>
+        <li><a href="#conti">Continental Food</a></li>
+        <li><a href="#chinese">Chinese Food</a></li>
+        <li><a href="#italy">italian</a></li>
+        <li><a href="#shahi">Shahi Paneer</a></li>
+      </ul>
+    </aside>
+  </body>
+</html>
